@@ -1,0 +1,74 @@
+/* stylelint-disable CssSyntaxError */
+
+/* stylelint-disable comment-empty-line-before */
+
+/* stylelint-disable font-family-name-quotes */
+
+/* stylelint-disable-next-line rule-empty-line-before */
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('./img/backgroun.avif');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#title {
+  text-align: center;
+  font-family: cursive;
+}
+
+.color {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.pixel {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+}
+
+#pixel-board {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+#button-random-color {
+  background-color: green;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+#button-random-color:hover {
+  background-color: greenyellow;
+  color: green;
+  font-size: 15px;
+  padding: 10px;
+  border: 1px solid green;
+  border-radius: 10px;
+}
+
+#clear-board {
+  background-color: red;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+#clear-board:hover {
+  background-color: rgb(243, 162, 162);
+  color: red;
+  font-size: 15px;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 10px;
+}
